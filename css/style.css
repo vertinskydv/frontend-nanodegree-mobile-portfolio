@@ -42,6 +42,20 @@ footer {
 }
 footer span { float: right; font-style: italic; }
 
+@font-face {
+  font-family: 'Open Sans';       /* название одно */
+  src: url('/../fonts/OpenSans-Regular.ttf'); /* разные файлы */
+  font-weight: 400;              /* разная плотность */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/../fonts/OpenSans-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
 /* Smartphones (portrait) */
 @media only screen and (max-width: 480px) {
   body { font-size: 12px;}
